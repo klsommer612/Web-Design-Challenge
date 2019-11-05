@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Comparisons</title>
+  <meta charset='utf-8'>
+  <meta content='IE=edge'
+        http-equiv='X-UA-Compatible'>
+  <meta content='width=device-width, initial-scale=1'
+        name='viewport'>
+  <link crossorigin='anonymous'
+        href='https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'
+        integrity='sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T'
+        rel='stylesheet'>
+  <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js'></script>
+  <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
+  <link href='styles.css'
+        media='screen'
+        rel='stylesheet'
+        type='text/css'>
+  <style>
+        h1 {
+            font-family: 'Georgia', 'Times New Roman', Times, serif;
+            ;
+        }
+        
+        span {
+            background-color: #0bada6;
+            padding: 20px;
+        }
+  </style>
+</head>
+<body>
+  <!-- Navigation Section -->
+  <div class='navigation'>
+    <nav class='navbar navbar-expand-lg navbar-light'>
+      <a class='navbar-brand'
+           href='index.html'
+           style='background-color: #0BADA6;'>Latitude</a>
+      <div class='collapse navbar-collapse'
+           id='navbarNavDropdown'>
+        <ul class='navbar-nav ml-auto'>
+          <li class='nav-item dropdown'>
+            <a aria-expanded='false'
+                aria-haspopup='true'
+                class='nav-link dropdown-toggle'
+                data-toggle='dropdown'
+                href='#'
+                id='navbarDropdownMenuLink'
+                style='color: black'>Plots</a>
+            <div aria-labelledby='navbarDropdownMenuLink'
+                 class='dropdown-menu'>
+              <a class='dropdown-item'
+                   href='max_temp.html'>Max Temperature</a> <a class='dropdown-item'
+                   href='humidity.html'>Humidity</a> <a class='dropdown-item'
+                   href='cloudiness.html'>Cloudiness</a> <a class='dropdown-item'
+                   href='wind_speed.html'>Wind Speed</a>
+            </div>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link'
+                href='comparisons.html'>Comparison</a>
+          </li>
+          <li class='nav-item'>
+            <a class='nav-link'
+                href='data.html'>Data</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div><!-- Content Section -->
+  <div class='container'>
+    <div class='row'>
+      <div>
+        <!-- Left box  -->
+        <div class='box1'>
+          <h3 class='title'>Comparison: Latitude vs. Weather Factors</h3>
+          <hr>
+          <p>Click a visualization for a more details</p>
+          <div class='container'
+               style='padding-bottom: 40px;'>
+            <div class='row'>
+              <div class='col-lg-6'
+                   style='padding: 30px;'>
+                <div class='title'>
+                  Max Temperature
+                </div><a href='max_temp.html'><img alt='Max Temperature'
+                     class='panel'
+                     src='Resources/Fig1.png'></a>
+              </div>
+              <div class='col-lg-6'
+                   style='padding: 30px;'>
+                <div class='title'>
+                  Humidity
+                </div><a href='humidity.html'><img alt='Humidity'
+                     class='panel'
+                     src='Resources/Fig2.png'></a>
+              </div>
+            </div>
+            <div class='row'>
+              <div class='col-lg-6'
+                   style='padding: 30px;'>
+                <div class='title'>
+                  Cloudiness
+                </div><a href='cloudiness.html'><img alt='Cloudiness'
+                     class='panel'
+                     src='Resources/Fig3.png'></a>
+              </div>
+              <div class='col-lg-6'
+                   style='padding: 30px;'>
+                <div class='title'>
+                  Wind Speed
+                </div><a href='wind_speed.html'><img alt='Wind Speed'
+                     class='panel'
+                     src='Resources/Fig4.png'></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div><!-- Footer Section -->
+  <footer>
+    <div class='footer'>
+      © Copyright Coding Bootcamp 2017
+    </div>
+  </footer>
+</body>
+</html>
